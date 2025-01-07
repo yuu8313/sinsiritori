@@ -1,0 +1,11 @@
+@keyframes paperPlaneSteadyClimb {
+  0% {
+    transform: translate(-400px, -80px) rotate(15deg) scaleX(1);
+  }
+  50% {
+    transform: translate(-500px, -120px) rotate(25deg) scaleX(1);
+  }
+  100% {
+    transform: translate(-600px, -160px) rotate(15deg) scaleX(1);
+  }
+}

@@ -1,0 +1,11 @@
+@keyframes paperPlaneBoost {
+  0% {
+    transform: translate(0, -80px) rotate(0deg) scaleX(1);
+  }
+  50% {
+    transform: translate(-300px, -80px) rotate(0deg) scaleX(1.2);
+  }
+  100% {
+    transform: translate(-600px, -80px) rotate(0deg) scaleX(1);
+  }
+}

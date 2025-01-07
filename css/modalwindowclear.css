@@ -1,0 +1,35 @@
+@import 'modalwindowanimation.css';
+
+.modal-clear {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+}
+
+.modal-content-clear {
+    background: linear-gradient(135deg, rgba(41, 247, 164, 0.1), rgba(255, 255, 255, 0.05));
+    border: 2px solid rgba(41, 247, 164, 0.3);
+    box-shadow: 0 0 30px rgba(41, 247, 164, 0.2);
+}
+
+.modal-content-clear h2 {
+    background: linear-gradient(45deg, #29f7a4, #4af7d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.modal-content-clear button {
+    background: linear-gradient(45deg, #29f7a4, #4af7d4);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.modal-content-clear button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(41, 247, 164, 0.3);
+}

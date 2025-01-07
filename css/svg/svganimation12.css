@@ -1,0 +1,11 @@
+@keyframes paperPlaneCruise {
+  0% {
+    transform: translate(-800px, -120px) rotate(0deg) scaleX(1);
+  }
+  50% {
+    transform: translate(-900px, -110px) rotate(5deg) scaleX(1);
+  }
+  100% {
+    transform: translate(-1000px, -120px) rotate(0deg) scaleX(1);
+  }
+}

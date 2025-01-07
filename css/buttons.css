@@ -1,0 +1,14 @@
+.glass-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    background: var(--glass-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.glass-button:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+}

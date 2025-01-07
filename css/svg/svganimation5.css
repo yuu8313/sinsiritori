@@ -1,0 +1,17 @@
+@keyframes paperPlaneLoop {
+  0% {
+    transform: translate(0, -80px) rotate(5deg) scaleX(1);
+  }
+  25% {
+    transform: translate(-100px, -85px) rotate(-5deg) scaleX(1);
+  }
+  50% {
+    transform: translate(-200px, -80px) rotate(5deg) scaleX(1);
+  }
+  75% {
+    transform: translate(-100px, -85px) rotate(-5deg) scaleX(1);
+  }
+  100% {
+    transform: translate(0, -80px) rotate(5deg) scaleX(1);
+  }
+}

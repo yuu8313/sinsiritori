@@ -1,0 +1,34 @@
+@import 'svg/svganimation1.css';
+@import 'svg/svganimation2.css';
+@import 'svg/svganimation3.css';
+@import 'svg/svganimation4.css';
+@import 'svg/svganimation5.css';
+@import 'svg/svganimation6.css';
+@import 'svg/svganimation7.css';
+@import 'svg/svganimation8.css';
+@import 'svg/svganimation9.css';
+@import 'svg/svganimation10.css';
+@import 'svg/svganimation11.css';
+@import 'svg/svganimation12.css';
+
+.fa-paper-plane {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.fa-paper-plane:hover {
+  animation: 
+    paperPlaneTakeOff 3s cubic-bezier(0.4, 0, 0.2, 1),
+    paperPlaneHorizontalFlight 15s cubic-bezier(0.4, 0, 0.2, 1) 3s,
+    paperPlaneLoop 8s cubic-bezier(0.4, 0, 0.2, 1) 18s,
+    paperPlaneSpin 2s linear 26s,
+    paperPlaneZigZag 6s cubic-bezier(0.4, 0, 0.2, 1) 28s,
+    paperPlaneBoost 4s cubic-bezier(0.4, 0, 0.2, 1) 34s,
+    paperPlaneBarrelRoll 4s cubic-bezier(0.4, 0, 0.2, 1) 38s,
+    paperPlaneSteadyClimb 4s cubic-bezier(0.4, 0, 0.2, 1) 42s,
+    paperPlaneDive 4s cubic-bezier(0.4, 0, 0.2, 1) 46s,
+    paperPlaneCruise 4s cubic-bezier(0.4, 0, 0.2, 1) 50s,
+    paperPlaneGliding 8s cubic-bezier(0.4, 0, 0.2, 1) 54s,
+    paperPlaneLanding 4s cubic-bezier(0.4, 0, 0.2, 1) 62s;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,20 @@
+@keyframes paperPlaneHorizontalFlight {
+  0% {
+    transform: translate(0, -80px) rotate(15deg) scaleX(1);
+  }
+  20% {
+    transform: translate(200px, -90px) rotate(-5deg) scaleX(1);
+  }
+  40% {
+    transform: translate(150px, -100px) rotate(-10deg) scaleX(-1);
+  }
+  60% {
+    transform: translate(-200px, -95px) rotate(10deg) scaleX(-1);
+  }
+  80% {
+    transform: translate(-250px, -85px) rotate(5deg) scaleX(1);
+  }
+  100% {
+    transform: translate(-200px, -90px) rotate(10deg) scaleX(1);
+  }
+}

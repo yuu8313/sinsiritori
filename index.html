@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>すっごい完璧なしりとり</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://github.com/yuu8313/hukugoukensakuenzin/blob/main/ICON.png?raw=true" type="image/png">
+
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <h1>すっごい完璧なしりとり</h1>
+            <div class="score">スコア: <span id="score">0</span></div>
+        </div>
+        
+        <div class="chat-container glass" id="chatContainer">
+            <!-- チャットメッセージ追加場所 -->
+        </div>
+
+        <div class="input-container glass">
+            <input type="text" id="userInput" placeholder="ひらがなで入力してください" autocomplete="off">
+            <button id="sendButton" class="glass-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="notification" class="notification"></div>
+
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content glass">
+            <h2 id="modalTitle">ゲームオーバー!</h2>
+            <p>最終スコア: <span id="finalScore">0</span></p>
+            <button id="restartButton" class="glass-button">もう一度遊ぶ</button>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/convert.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/blacklist.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@keyframes paperPlaneSpin {
+  0% {
+    transform: translate(0, -80px) rotate(0deg) scaleX(1);
+  }
+  100% {
+    transform: translate(0, -80px) rotate(360deg) scaleX(1);
+  }
+}

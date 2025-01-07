@@ -1,0 +1,43 @@
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.user-message {
+    animation: slideInRight 0.3s ease-out forwards;
+}
+
+.ai-message {
+    animation: slideInLeft 0.3s ease-out forwards;
+}
+
+.chat-bubble {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chat-bubble:hover {
+    transform: scale(1.02) translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.chat-bubble:active {
+    transform: scale(0.98) translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,24 @@
+@keyframes modalFadeIn {
+    from { 
+        opacity: 0;
+        transform: scale(0.8) translateY(-20px);
+    }
+    to { 
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes modalGlow {
+    0% { box-shadow: 0 0 5px rgba(184, 41, 247, 0.2); }
+    50% { box-shadow: 0 0 20px rgba(184, 41, 247, 0.4); }
+    100% { box-shadow: 0 0 5px rgba(184, 41, 247, 0.2); }
+}
+
+.modal-animate {
+    animation: modalFadeIn 0.4s ease-out forwards;
+}
+
+.modal-content-animate {
+    animation: modalGlow 2s infinite;
+}

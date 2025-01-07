@@ -1,0 +1,11 @@
+@keyframes paperPlaneBarrelRoll {
+  0% {
+    transform: translate(-200px, -80px) rotate(0deg) scaleX(1);
+  }
+  50% {
+    transform: translate(-300px, -80px) rotate(180deg) scaleX(1);
+  }
+  100% {
+    transform: translate(-400px, -80px) rotate(360deg) scaleX(1);
+  }
+}
